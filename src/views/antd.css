@@ -1,0 +1,81 @@
+header .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #000000;
+}
+header .ant-menu.ant-menu-dark .ant-menu-item-active, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-active{
+    background-color: #000000;
+}
+header .ant-menu.ant-menu-dark .ant-menu-item-selected sub, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected sub{
+    position: absolute;
+    bottom:-1px;
+    left:50%;
+    border:7px solid #C20C0C;
+    border-top-color: transparent;
+    border-right-color:transparent;
+    border-left-color:transparent;
+    transform: translateX(-50%);
+}
+
+.head-menu .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+     border-radius: 10px;
+     background-color:#9B0909;
+}
+.head-menu .ant-menu.ant-menu-dark .ant-menu-item-active, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-active{
+    border-radius: 10px;
+    background-color: #9B0909;
+}
+
+
+
+.ant-menu-horizontal {
+    line-height: 56px;
+}
+.ant-menu-dark.ant-menu-horizontal {
+    border-bottom-color: transparent;
+}
+
+.ant-carousel .slick-slide {
+    overflow: hidden; 
+  }
+  .ant-menu-item, .ant-menu-submenu-title {
+    /* cursor: pointer;
+    margin: 0; */
+    padding: 0 10px;
+    /* position: relative; */
+    /* display: block; */
+    /* white-space: nowrap;
+    -webkit-transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+*/} 
+
+
+.ant-carousel .slick-dots li.slick-active button {
+    background: #c40c0c;
+}
+
+
+.hot-recom:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+span{
+    display:inline-block;
+}
+
+.clearFloat:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+
+
+.ant-btn-primary {
+    background-color: #c40c0c;
+    border-color:transparent;
+}
+.ant-btn-primary:hover {
+    background-color: #db1717;
+    border-color:transparent;
+}
